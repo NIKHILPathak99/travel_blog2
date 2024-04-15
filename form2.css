@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.ru4SniwtFUV995kqVjQ_6AAAAA?pid=ImgDet&w=159&h=239&c=7&dpr=1.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow:hidden;
+}
+.sec{
+    height: 70vh;
+    background-image: linear-gradient(rgba(230, 168, 124, 0.228),rgba(94, 99, 169, 0.85)),url(https://wallpapercave.com/wp/wp2756661.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-inline: 35%;
+    margin-top: 5%;
+    padding-bottom: 20px;
+    padding-inline: 20px;
+    border: 5px double rebeccapurple;
+    box-shadow: 10px 10px 5px rgb(252, 5, 9),-10px -10px 5px rgb(100, 98, 98);
+    border-radius: 5px;
+    animation: form 3s 2s backwards;
+}
+@keyframes form {
+    from{
+        transform: translate(-300%);
+        rotate: 0deg;
+    }
+    to{
+        transform: translate(0);
+        rotate: 360deg;
+    }
+}
+.sec form label,a,.reset{
+    color: rgb(38, 35, 35);
+    text-shadow: 7px 7px 5px rgb(108, 105, 105);
+    font-family: "Anta", sans-serif;
+    text-decoration: none;
+    transition: 500ms;
+}
+.sec .div{
+    text-align: center;
+    line-height: 100px;
+    border-top: 3px;
+    text-decoration: underline;
+    color: rgb(38, 35, 35);
+    text-shadow: 7px 7px 5px rgb(108, 105, 105);
+    font-family: "Anta", sans-serif;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+form span{
+    background-color: aliceblue;
+    text-decoration: none;
+}
+.div1{
+    margin: 100px 100px;
+}
+form a:hover{
+    border: 3px double rebeccapurple;
+    box-shadow: 10px 10px 5px rgb(252, 5, 9),-10px -10px 5px rgb(100, 98, 98);
+    border-radius: 5px;
+}

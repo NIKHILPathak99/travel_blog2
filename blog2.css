@@ -1,0 +1,411 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    background-image: url(./image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+ }
+ .div1{
+    color: aliceblue;
+    margin-left: 5px;
+    font-size: 28px;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation: head 2s 2s backwards;
+}
+@keyframes head {
+   from{
+      transform: translate(-100%);
+   }
+   to{
+      transform: translate(0);
+   }
+}
+      
+ .navbar{
+    background-color: aqua;
+    overflow: auto;
+    font-family: "Anta", sans-serif;
+    border-radius: 15px;   
+ }
+ .navbar li{
+    float: left;
+    list-style: none;
+    padding: 5px 2px;
+    margin: 10px 10px;
+    transition: 1s;
+    border-radius: 5px;
+ }
+ .navbar .search{
+    text-align: end;
+    padding: 15px 15px;
+    border-radius: 5px;
+ }
+ .navbar li:hover{
+    transform: scale(1.5);
+    z-index: 2;
+    background-color: rgb(8, 8, 8);
+    color: rgb(253, 3, 3);
+ }
+ .div2 {
+   animation: naav 2s 2s backwards;
+ }
+ @keyframes naav{
+   from{
+      transform: translate(300%);
+   }
+   to{
+      transform: translate(0);
+   }
+}
+ .sec1{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(47, 45, 45, 0.75)),url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg/1920px-Altja_j%C3%B5gi_Lahemaal.jpg);
+    animation: vid 3s 3s backwards;
+ }
+ @keyframes vid {
+   from{
+      transform: translate(-300%);
+   }
+   to{
+      transform: translate(0);
+   }
+}
+ .sec1 video{
+    height: 400px;
+    padding-top: 12px;
+ }
+ .sec2 h1{
+    font-family: "Anta", sans-serif;
+    font-size: 38px;
+    color:aquamarine;
+    text-decoration: underline;
+    margin-left: 15px;
+    margin-top: 12px;
+    text-shadow: 10px 15px 5px royalblue;
+    animation: head1 3s 4s backwards;
+ }
+ @keyframes head1 {
+   from{
+      transform: translate(300%);
+   }
+   to{
+      transform: translate(0);
+   }
+}
+.sec2 a{
+   color: aqua;
+}
+ .div01{
+    margin: 80px 200px;
+    text-align: justify;
+ }
+ .div01 li{
+    color:lightseagreen;
+    font-family: "Anta", sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-block: 20px;
+    text-shadow: 5px 7px 3px rgb(136, 136, 242);
+    margin-right: 80%;
+    text-align: center;
+    transition: 1s;
+    animation: li1 3s 6s backwards;
+ }
+ @keyframes li1 {
+   from{
+      transform: translate(-200%);
+   }
+   to{
+      transform: translate(0);
+   }
+ }
+ .div01 li:hover{
+    box-shadow: 10px 10px 5px rgb(252, 5, 9),-10px -10px 5px rgb(100, 98, 98);
+    transform: scale(1.3);
+    z-index: 2;
+ }
+ .div01 img{
+    height: 200px;
+    width: 250px;
+    float: left;
+    margin-right: 30px;
+    box-shadow: 5px 7px 3px rgb(253, 93, 93);
+    transition: 1s;
+    animation: img1 3s 6s backwards;
+ }
+ @keyframes img1 {
+   from{
+      transform: translate(-200%);
+   }
+   to{
+      transform: translate(0);
+   }
+ }
+ .div01 img:hover{
+    box-shadow: 10px 10px 5px rgb(252, 5, 9),-10px -10px 5px rgb(100, 98, 98);
+    transform: scale(1.2);
+    z-index: 2;
+ }
+ .div01 p{
+    color: azure;
+    padding: 50px 100px;
+    margin-left: 30px;
+    animation: p1 3s 6s backwards;
+ }
+ .div01 a:hover{
+   color: rgb(132, 210, 118);
+ }
+ @keyframes p1 {
+   from{
+      transform: translate(200%);
+   }
+   to{
+      transform: translate(0);
+   }
+ }
+ .div02{
+   margin: 80px 200px;
+   text-align: justify;
+}
+.div02 li{
+   color:lightseagreen;
+   font-family: "Anta", sans-serif;
+   font-size: 20px;
+   text-decoration: underline;
+   margin-block: 20px;
+   text-shadow: 5px 7px 3px rgb(136, 136, 242);
+   margin-left: 70%;
+   margin-right: 15%;
+   text-align: center;
+   transition: 1s;
+   animation: li2 3s 7s backwards;
+}
+@keyframes li2 {
+  from{
+     transform: translate(500%);
+  }
+  to{
+     transform: translate(0);
+  }
+}
+.div02 li:hover{
+   box-shadow: 10px 10px 5px rgb(252, 5, 9),-10px -10px 5px rgb(100, 98, 98);
+   transform: scale(1.3);
+   z-index: 2;
+}
+.div02 img{
+   height: 200px;
+   width: 250px;
+   float: right;
+   margin-left: 30px;
+   margin-right: 30px;
+   box-shadow: 5px 7px 3px rgb(76, 164, 246);
+   transition: 1s;
+   animation: img2 3s 7s backwards;
+}
+@keyframes img2 {
+  from{
+     transform: translate(200%);
+  }
+  to{
+     transform: translate(0);
+  }
+}
+.div02 img:hover{
+   box-shadow: 10px 10px 5px rgb(252, 5, 9),-10px -10px 5px rgb(100, 98, 98);
+   transform: scale(1.2);
+   z-index: 2;
+}
+.div02 p{
+   color: azure;
+   padding: 50px 100px;
+   animation: p2 3s 7s backwards;
+   margin-left: -50px;
+}
+.div02 a:hover{
+   color: rgb(132, 210, 118);
+}
+@keyframes p2 {
+  from{
+     transform: translate(-200%);
+  }
+  to{
+     transform: translate(0);
+  }
+}
+.div03{
+   margin: 80px 200px;
+   text-align: justify;
+}
+.div03 li{
+   color:lightseagreen;
+   font-family: "Anta", sans-serif;
+   font-size: 20px;
+   text-decoration: underline;
+   margin-block: 20px;
+   text-shadow: 5px 7px 3px rgb(136, 136, 242);
+   margin-right: 80%;
+   text-align: center;
+   transition: 1s;
+   animation: li3 3s 8s backwards;
+}
+@keyframes li3 {
+  from{
+     transform: translate(-200%);
+  }
+  to{
+     transform: translate(0);
+  }
+}
+.div03 li:hover{
+   box-shadow: 10px 10px 5px rgb(252, 5, 9),-10px -10px 5px rgb(100, 98, 98);
+   transform: scale(1.3);
+   z-index: 2;
+}
+.div03 img{
+   height: 200px;
+   width: 250px;
+   float: left;
+   margin-right: 30px;
+   box-shadow: 5px 7px 3px rgb(253, 93, 93);
+   transition: 1s;
+   animation: img3 3s 8s backwards;
+}
+@keyframes img3 {
+  from{
+     transform: translate(-200%);
+  }
+  to{
+     transform: translate(0);
+  }
+}
+.div03 img:hover{
+   box-shadow: 10px 10px 5px rgb(252, 5, 9),-10px -10px 5px rgb(100, 98, 98);
+   transform: scale(1.2);
+   z-index: 2;
+}
+.div03 p{
+   color: azure;
+   padding: 50px 100px;
+   margin-left: 30px;
+   animation: p3 3s 8s backwards;
+}
+.div03 a:hover{
+   color: rgb(132, 210, 118);
+}
+@keyframes p3 {
+  from{
+     transform: translate(200%);
+  }
+  to{
+     transform: translate(0);
+  }
+}
+.div04{
+   margin: 80px 200px;
+   text-align: justify;
+}
+.div04 li{
+   color:lightseagreen;
+   font-family: "Anta", sans-serif;
+   font-size: 20px;
+   text-decoration: underline;
+   margin-block: 20px;
+   text-shadow: 5px 7px 3px rgb(136, 136, 242);
+   margin-left: 70%;
+   margin-right: 15%;
+   text-align: center;
+   transition: 1s;
+   animation: li4 3s 9s backwards;
+}
+@keyframes li4 {
+  from{
+     transform: translate(500%);
+  }
+  to{
+     transform: translate(0);
+  }
+}
+.div04 li:hover{
+   box-shadow: 10px 10px 5px rgb(252, 5, 9),-10px -10px 5px rgb(100, 98, 98);
+   transform: scale(1.3);
+   z-index: 2;
+}
+.div04 img{
+   height: 200px;
+   width: 250px;
+   float: right;
+   margin-left: 30px;
+   margin-right: 30px;
+   box-shadow: 5px 7px 3px rgb(76, 164, 246);
+   transition: 1s;
+   animation: img4 3s 9s backwards;
+}
+@keyframes img4 {
+  from{
+     transform: translate(200%);
+  }
+  to{
+     transform: translate(0);
+  }
+}
+.div04 img:hover{
+   box-shadow: 10px 10px 5px rgb(252, 5, 9),-10px -10px 5px rgb(100, 98, 98);
+   transform: scale(1.2);
+   z-index: 2;
+}
+.div04 p{
+   color: azure;
+   padding: 50px 100px;
+   animation: p4 3s 9s backwards;
+   margin-left: -50px;
+}
+.div04 a:hover{
+   color: rgb(132, 210, 118);
+}
+@keyframes p4 {
+  from{
+     transform: translate(-200%);
+  }
+  to{
+     transform: translate(0);
+  }
+}
+::-webkit-scrollbar{
+   display: none;
+}
+footer{
+   background-color: cadetblue;
+   border-radius: 15px;
+}
+footer .main{
+   display: flex;
+   text-align: center;
+   animation: ani 20s -20s infinite;
+}
+@keyframes ani {
+   from{
+      transform: translate(-100%);
+   }
+   to{
+      transform: translate(100%);
+   }
+}
+footer img{
+   height: 30px;
+   padding: 5px;
+   margin-left: 10px;
+}
+footer .div11{
+   padding: 8px;
+   margin-left: -10px;
+}
+footer .div13{
+   padding: 8px;
+   margin-left: -10px;
+}
